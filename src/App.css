@@ -79,12 +79,35 @@
   padding-bottom: 50px;
   color: rgb(140, 135, 135);
 }
-
+.row-delivery{
+  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+.del-col{
+  color: white;
+  width: 20%;
+  padding: 0 20px;
+}
+.del-col i{
+  font-size: 3rem;
+  margin-bottom: 30px;
+  margin-left: 20%;
+}
+.del-col h3{
+  margin-left: 10%;
+  color: rgb(140, 135, 135);
+}
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
+  }
+  .del-col i{
+    margin-left: 0%;
   }
 }
 @media(max-width: 574px){
@@ -93,3 +116,4 @@
  
   }
 }
+
