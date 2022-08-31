@@ -1,9 +1,10 @@
 import './App.css';
+import Footer from '../../CoolFashion/src/components/Footer'
 
 function App() {
   return (
     <div className="App">
-   <h1>Välkommna till Cool Fashion</h1>
+   <Footer/>
     </div>
   );
 }
