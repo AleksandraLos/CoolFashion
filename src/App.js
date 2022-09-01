@@ -1,10 +1,12 @@
 import './App.css';
-import Footer from '../../CoolFashion/src/components/Footer'
+import Footer from '../../CoolFashion/src/components/Footer';
+import InstagramCarousel from './components/InstagramCarousel';
 
 function App() {
   return (
-    <div className="App">
-   <Footer/>
+    <div className='App'>
+      <InstagramCarousel />
+      <Footer />
     </div>
   );
 }

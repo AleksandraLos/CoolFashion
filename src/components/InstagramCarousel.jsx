@@ -6,8 +6,8 @@ import { Swiper, SwiperSlide, } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "../styles/swiperStyle.css";
-import "../styles/index.css";
+import "../swiperStyle.css";
+
 
 // import required modules
 import {Autoplay } from "swiper";
@@ -18,12 +18,12 @@ const InstagramCarousel = () => {
         <>
           <Swiper
             modules={[Autoplay]}
-            slidesPerView={2}
+            slidesPerView={3}
             spaceBetween={30}
             loop={true}
             navigation={false}
             autoplay={true}
-            className="mySwiper"
+            className="mySwiper container pl-100"
           >
             <SwiperSlide><img src="https://i.pinimg.com/originals/23/e2/50/23e2501b3872ce775196f3e22a75bc65.jpg" alt="" /></SwiperSlide>
             <SwiperSlide><img src="https://i.pinimg.com/736x/3c/a2/8d/3ca28d4df210079c63230db9f04e19d8.jpg" alt="" /></SwiperSlide>
